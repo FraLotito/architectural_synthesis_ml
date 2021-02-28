@@ -1,6 +1,6 @@
 from expression_parser import Expression_parser
 
-infix = "( A * B ) + ( C * D )"
+infix = "( A * B ) + ( C * D )" # SPACES BETWEEN THE SYMBOLS ARE NEEDED!
 print("INPUT: " + infix + '\n')
 
 expression = Expression_parser(infix)
